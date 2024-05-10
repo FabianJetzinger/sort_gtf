@@ -2,7 +2,7 @@
 
 This script (attempts to) sort .gtf files in the following manner:
 
-1. sort chromosomes
+1. sort by chromosome (keeping the order they are encountered in)
 2. sort all entries within a chromosome by gene start position (if no gene_id, use the entry's own start position)
     
     --> this means, if e.g. gene 1 and 2 overlap, all entries associated with gene 1 should come before gene 2, even if e.g. the start position of the last exon of gene 1 is later than the start of gene 2
