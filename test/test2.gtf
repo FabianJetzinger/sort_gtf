@@ -1,0 +1,21 @@
+# my file
+chr2	test	gene	1000	4000	.	+	.	gene "G1";
+chr2	test	transcript	1000	4000	.	+	.	gene "G3"; transcript "G3.1";
+chr2	test	exon	1000	1200	.	+	.	gene "G3"; transcript "G3.1"; exon_number "1";
+chr2	test	exon	3400	4000	.	+	.	gene "G3"; transcript "G3.1"; exon_number "2";
+chr2	test	gene	1200	4000	.	-	.	gene "G4";
+chr2	test	transcript	1200	4000	.	-	.	gene "G4"; transcript "G4.1";
+chr2	test	exon	3400	4000	.	-	.	gene "G4"; transcript "G4.1"; exon_number "2";
+chr2	test	exon	1200	1400	.	-	.	gene "G4"; transcript "G4.1"; exon_number "1";
+chr2	test	OTHER1	1200	1400	.	-	.	gene "G4";
+chr2	test	OTHER2	1200	1400	.	-	.	gene "G4"; transcript "G4.1";
+# comment
+chr2	test	OTHER3	3400	4000	.	-	.	gene "G4"; transcript "G4.1";
+chr1	test	gene	1200	4000	.	-	.	gene "G2";    
+chr1	test	transcript	1200	4000	.	-	.	gene "G2"; transcript "G2.1";
+chr1	test	exon	3400	4000	.	-	.	gene "G2"; transcript "G2.1"; exon_number "2";
+chr1	test	exon	1200	1400	.	-	.	gene "G2"; transcript "G2.1"; exon_number "1";
+chr1	test	gene	1000	4000	.	+	.	gene "G1";
+chr1	test	transcript	1000	4000	.	+	.	gene "G1"; transcript "G1.1";
+chr1	test	exon	1000	1200	.	+	.	gene "G1"; transcript "G1.1"; exon_number "1";
+chr1	test	exon	3400	4000	.	+	.	gene "G1"; transcript "G1.1"; exon_number "2";
